@@ -20,7 +20,7 @@ from agenda import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.inicio, name='inicio'),
+    path('', views.inicio, name='home'),
     path('consultas/', views.consultas, name='consultas'),
     path('pacientes/', views.pacientes, name='pacientes'),
     path('medicos/', views.medicos, name='medicos'),
